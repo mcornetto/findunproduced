@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.example"
+        versionCode="10" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Unproduced Scripts</name>
+
+    <description>
+        Use this search to find unproduced scripts on the web.  There are over 17000 screenplays catalogued.
+    </description>
+
+    <author href="http://forum.writerarena.com" email="mcornetto@hotmail.com">
+        Writer Arena / Michael Cornetto
+    </author>
+	
+	<preference name="phonegap-version" value="2.7.0" />
+	<preference name="orientation" value="default" />
+	<preference name="android-minSdkVersion" value="7" />
+	
+	<icon src="icon.png" />
+	
+	
+	<!-- IOS -->
+	<icon src="icons/icon-48.png" gap:platform="ios" width="57" height="57" />
+	<icon src="icons/icon-72.png" gap:platform="ios" width="72" height="72" />
+	<icon src="icons/icon-96.png" gap:platform="ios" width="114" height="114" />
+
+	<!-- retina iPad support: PhoneGap 2.5.0+ only -->
+	<icon src="icons/ios/icon-96.png" gap:platform="ios" width="144" height="144" />
+	
+	<!-- Android -->
+	<icon src="icons/icon-36.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="icons/icon-48.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="icons/icon-72.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="icons/icon-96.png" gap:platform="android" gap:density="xhdpi" />
+	
+	<!-- BlackBerry -->
+	<icon src="icons/icon-96-hover.png" gap:platform="blackberry" gap:state="hover"/>
+	
+	<gap:splash src="splash.png" />
+	
+</widget>
