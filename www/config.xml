@@ -43,4 +43,8 @@
 	
 	<gap:splash src="splash.png" />
 	
+	<preference name="permissions" value="none"/>
+	
+	<access origin="*" />
+	
 </widget>
